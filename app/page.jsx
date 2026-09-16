@@ -16,7 +16,38 @@ const collections = [
     name: "Architectural Greens",
     category: "Statement Plants",
     image: "/image (3).jpg"
-  }
+  },
+  {
+  name: "Tropical Foliage",
+  category: "Lush Collection",
+  image: "/Tropical Plant.webp"
+},
+{
+  name: "Flowering Plants",
+  category: "Blooming Collection",
+  image: "/Flowering Plants.jpg"
+},
+{
+  name: "Outdoor Greens",
+  category: "Garden Collection",
+  image: "/Gardern Collection.webp"
+},
+{
+  name: "Palm Collection",
+  category: "Tropical Collection",
+  image: "/Tropical Collection.webp"
+},
+{
+  name: "Succulents",
+  category: "Minimal Collection",
+  image: "/Minimal Collection.jpg"
+},
+{
+  name: "Decorative Plants",
+  category: "Lifestyle Collection",
+  image: "/Lifestyle Collection.webp"
+},
+  
 ];
 
 export default function Home() {
