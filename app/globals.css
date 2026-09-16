@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+:root {
+  --forest: #082d1b;
+  --forest-2: #0e4a2b;
+  --charcoal: #080b09;
+  --gold: #c7a35a;
+  --cream: #e8e0cf;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at 80% 10%, rgba(42, 116, 68, .18), transparent 28%),
+    radial-gradient(circle at 15% 70%, rgba(199, 163, 90, .08), transparent 24%),
+    var(--charcoal);
+  color: #f4f0e6;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+::selection {
+  background: var(--gold);
+  color: #08100b;
+}
+
+.gold-text {
+  color: var(--gold);
+}
+
+.glass {
+  background: rgba(11, 27, 18, .62);
+  border: 1px solid rgba(199, 163, 90, .18);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+}
+
+.gold-line {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--gold), transparent);
+}
+
+.plant-card {
+  transition: transform .35s ease, border-color .35s ease, box-shadow .35s ease;
+}
+
+.plant-card:hover {
+  transform: translateY(-7px);
+  border-color: rgba(199, 163, 90, .55);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, .45);
+}
+
+.reveal-up {
+  animation: revealUp .8s ease both;
+}
+
+@keyframes revealUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
