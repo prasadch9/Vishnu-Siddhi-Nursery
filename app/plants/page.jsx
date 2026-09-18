@@ -10,7 +10,15 @@ const plants = [
   ["Tecoma Dwarf", "Tecoma Dwarf", "/tecoma dwarf.webp"],
   ["Thai Cypress", "Thai Cypress", "/thai cypress.webp"],
   ["Washingtonia Filifera", "Washingtonia Filifera", "/Washingtonia Filifera.webp"],
-  ["Wedelia-Trilobata", "Wedelia-Trilobata", "/Wedelia-Trilobata.webp"]
+  ["Wedelia-Trilobata", "Wedelia-Trilobata", "/Wedelia-Trilobata.webp"],
+  ["Dracaena Reflexa", "Dracaena Reflexa", "/Dracaena Reflexa.jpg"],
+  ["For Garden", "For Garden", "/For Garden.jpeg"],
+  ["Hubricht's bluestar (Amsonia hubrichtii)", "Hubricht's bluestar (Amsonia hubrichtii)", "/Hubricht's bluestar (Amsonia hubrichtii).webp"],
+  ["Pennsylvania sedge (Carex pensylvanica)", "Pennsylvania sedge (Carex pensylvanica)", "/Pennsylvania sedge (Carex pensylvanica).webp"],
+  ["Pimpri Chinchwad", "Pimpri Chinchwad", "/Pimpri Chinchwad.webp"],
+  ["Poinsettia Indoor & Outdoor", "Poinsettia Indoor & Outdoor", "/Poinsettia Indoor & Outdoor.jpg"],
+  ["Shrubs", "Shrubs", "/Shrubs.avif"],
+  ["Yamileth Parafita", "Yamileth Parafita", "/Yamileth Parafita.jpg"]
 ];
 
 export default function Plants() {

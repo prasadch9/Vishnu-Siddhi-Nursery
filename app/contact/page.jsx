@@ -1,3 +1,5 @@
+import { FaInstagram, FaFacebookF } from "react-icons/fa";
+
 export default function Contact() {
   return (
     <section className="mx-auto min-h-screen max-w-7xl px-6 pb-24 pt-36">
@@ -106,14 +108,14 @@ export default function Contact() {
               href="#"
               className="border border-white/10 px-5 py-3 text-xs uppercase tracking-[.15em] text-white/60 hover:border-[#c7a35a]/50 hover:text-[#c7a35a]"
             >
-              Instagram
+              <FaInstagram className="text-lg" />
             </a>
 
             <a
               href="#"
               className="border border-white/10 px-5 py-3 text-xs uppercase tracking-[.15em] text-white/60 hover:border-[#c7a35a]/50 hover:text-[#c7a35a]"
             >
-              Facebook
+              <FaFacebookF className="text-lg" />
             </a>
 
           </div>
